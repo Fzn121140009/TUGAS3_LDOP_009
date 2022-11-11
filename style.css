@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(17, 175, 207);
+}
+
+h3{
+    font-size: 75px;
+}
+
+p{
+    font-size: 50px;
+}
+li{
+    font-size: 50px;
+}
+.navigation {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+}
+
+.nav {
+    list-style-type: none;
+    padding: 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.nav:hover {
+    background-color: black;
+    border-radius: 15px;
+    transition: all ease-in-out .25s;
+}
+
+.nav:hover>a {
+    color: white;
+}
+
+
+.navlink {
+    color: black;
+    font-size: 1.2em;
+    font-weight: 600;
+    text-decoration: none;
+}
